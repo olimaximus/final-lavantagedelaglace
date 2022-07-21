@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/final-lavantagedelaglace/static/css/main.cb78a9b6.css",
+    "main.js": "/final-lavantagedelaglace/static/js/main.8da3f4e3.js",
+    "static/media/hockey-rink.jpg": "/final-lavantagedelaglace/static/media/hockey-rink.390d141812f763379e52.jpg",
+    "index.html": "/final-lavantagedelaglace/index.html",
+    "main.cb78a9b6.css.map": "/final-lavantagedelaglace/static/css/main.cb78a9b6.css.map",
+    "main.8da3f4e3.js.map": "/final-lavantagedelaglace/static/js/main.8da3f4e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb78a9b6.css",
+    "static/js/main.8da3f4e3.js"
+  ]
+}
