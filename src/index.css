@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Noto Sans";
+  font-weight: bold;
+  color: #000000;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar .logo {
+  text-decoration: none;
+}
+.navbar h1 {
+  font-size: 1.5rem;
+  padding: 0;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar .links a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #d40d0d;
+}
+.navbar .button {
+  margin-left: 16px;
+  background: #d40d0d;
+  color: #fff;
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.navbar .button:hover {
+  color: #fff;
+  padding: 8px;
+  margin-left: 12px;
+}
+.content {
+  margin: 0px auto;
+  padding: 0px;
+  min-height: 90vh;
+  background-image: url('../assets/hockey-rink.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.Front-Panel {
+  margin: 0 auto;
+  min-height: 90vh;
+  max-width: 60%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 1em;
+}
+
+h1 {
+  color: #d40d0d;
+  padding: 0.5em 0;
+  font-size: 3.75rem;
+}
+
+h3 {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.Home a {
+  color: white;
+  background-color: #d40d0d;
+  margin: 0 1em;
+  padding: 6px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+.Home .links {
+  margin-bottom: 4em;
+}
+
+.Home .row {
+  margin: 4em 0;
+}
+
+.Home .second-sub {
+  margin-bottom: 1.5em;
+}
+
+.Home p {
+  margin: 0 5em 2em;
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+
+form {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 0.3em 0;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2em;
+  display: none;
+}
+
+.filtre label {
+  color: black;
+  margin-right: 0.5em;
+}
+
+.filtre input {
+  display: table-cell;
+  vertical-align: middle;
+  pointer-events: all;
+}
+
+input {
+  background-color:#d40d0d;
+  border-width: 0px;
+  color: white;
+  font-size: 0.95rem;
+  border-radius: 4px;
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+.single-video-display img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.videos {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 3em 0 0;
+  margin-top: 2em;
+}
+
+.videos .row {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 3em;
+}
+
+.single-video-display {
+  display: inline-block;
+  width: 15em;
+  margin: 0 1em;
+  text-decoration: none;
+}
+
+.single-video-display:hover h4 {
+  color: #d40d0d;
+}
+
+.video-player .video div {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.video-player p {
+  margin: 5em 2em 0;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.video-player h1{
+  font-size: 3rem;
+  padding-top: 0;
+}
+
+.video-player a {
+  color: #d40d0d;
+}
+
+.video-player .navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reservation form {
+  border: none;
+  display: block;
+}
+
+.reservation input {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  width: 17em;
+  font-weight: normal;
+  padding: 0.25em;
+}
+
+.reservation input:hover {
+  cursor:initial;
+}
+
+.reservation label {
+  display: block;
+  margin-top: 2em;
+}
+
+.reservation #confirmer {
+  display: block;
+  margin: 2em auto 0;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 6px;
+  background-color: rgb(61, 86, 211);
+}
+
+.reservation #confirmer:hover {
+  cursor: pointer;
+}
+
+.reservation select {
+  width: 20em;
+  padding: 0.5em;
+  border-radius: 4px;
+}
+
+.reservation span {
+  display: block;
+  color: #d40d0d;
+  font-weight: normal;
+  font-size: 0.75rem;
+  width: 50%;
+  margin: 0 auto;
+  display: none;
+}
+
+#date:invalid[focused="true"] ~ #s1{
+  display: block;
+}
+
+#nom:invalid[focused="true"] ~ #s2{
+  display: block;
+}
+
+#email:invalid[focused="true"] ~ #s3{
+  display: block;
+}
+
+.confirmation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -125px;
+  margin-left: -250px;
+  width: 500px;
+  height: 250px;
+  text-align: center;
+  background-color: white;
+  display: none;
+  border: 2px solid black;
+  z-index: 1010;
+  border-radius: 6px;
+}
+
+.confirmation-overlay {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.confirmation[appearance="true"] {
+  display: block;
+}
+
+.confirmation[appearance="true"] ~ .confirmation-overlay{
+  display: block;
+}
+
+.confirmation button {
+  color: white;
+  background-color: rgb(61, 86, 211);
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  padding: 0.5em 4em;
+  cursor: pointer;
+  position: absolute;
+  top: 80%;
+  margin-left: -75.69px;
+}
+
+.confirmation h3 {
+  color: #d40d0d;
+}
+
+.confirmation p {
+  font-weight: normal;
+  margin: 1em 2em 0;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 0 1em;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Youtube */
+.fa-youtube {
+  background:#d40d0d;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.liens{
+  margin: 1em;
+}
+
+.Contact h3 {
+  margin: 3em auto 1em;
+}
+
+.Contact h4 {
+  font-size: 1rem;
+  text-decoration: underline;
+  color: blue;
+}
+
+.Contact h1 {
+  padding-bottom: 0;
+}
+
+.commentaire {
+  background-color: white;
+  text-align: start;
+  padding-left: 1em;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  border: 1px solid grey;
+  border-radius: 6px;
+}
+
+.commentaire h3 {
+  margin: 0;
+}
+
+.commentaire p {
+  margin: 0;
+  font-weight: normal;
+}
+
+.Contact input {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  width: 17em;
+  font-weight: normal;
+  padding: 0.25em;
+  display: block;
+  margin: 0 auto 1em;
+  cursor: initial;
+}
+
+.Contact textarea {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 100%;
+  margin-bottom: 1em;
+  font-weight: normal;
+  color: #000000;
+}
+
+.Contact form {
+  display: block;
+  border: none;
+}
+
+.Contact button {
+  display: block;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 6px;
+  background-color: rgb(61, 86, 211);
+  margin: 2em auto 0;
+  cursor: pointer;
+}
+
+.Contact span {
+  display: block;
+  color: #d40d0d;
+  font-weight: normal;
+  font-size: 0.75rem;
+  width: 50%;
+  margin: 0 auto;
+  display: none;
+}
+
+.Contact input:invalid[focused="true"] ~ span{
+  display: block;
+}
+
+.Contact .commentaires {
+  border-top: 1px solid black;
+  padding-top: 1em;
+}
+
+.pages {
+  display: none;
+}
