@@ -8,7 +8,7 @@ const Lancers = () => {
                 <h1>Lancers</h1>
                 <h3>Nos vidéos sur le sujet:</h3>
                 <div className="filtres">
-                    <form action="/lavantagedelaglace/lancers">
+                    <form action="/final-lavantagedelaglace/lancers">
                         <div className="filtre">
                             <label for="poignet">Lancer du poignet</label>
                             <input type="checkbox" id="poignet" name="poignet" value="poignet"></input>
@@ -36,29 +36,29 @@ const Lancers = () => {
 
                 <div className="videos">
                     <div className='row'>
-                        <Link to={"/lavantagedelaglace/video/" + videos[6].id} className="single-video-display">
+                        <Link to={"/final-lavantagedelaglace/video/" + videos[6].id} className="single-video-display">
                             <img src={videos[6]['thumbnail-url']} alt={videos[6].title} />
                             <h4>{videos[6].title}</h4>
                         </Link>
-                        <Link to={"/lavantagedelaglace/video/" + videos[7].id} className="single-video-display">
+                        <Link to={"/final-lavantagedelaglace/video/" + videos[7].id} className="single-video-display">
                             <img src={videos[7]['thumbnail-url']} alt={videos[7].title} />
                             <h4>{videos[7].title}</h4>
                         </Link>
-                        <Link to={"/lavantagedelaglace/video/" + videos[8].id} className="single-video-display">
+                        <Link to={"/final-lavantagedelaglace/video/" + videos[8].id} className="single-video-display">
                             <img src={videos[8]['thumbnail-url']} alt={videos[8].title} />
                             <h4>{videos[8].title}</h4>
                         </Link>
                     </div>
                     <div className='row'>
-                    <Link to={"/lavantagedelaglace/video/" + videos[9].id} className="single-video-display">
+                    <Link to={"/final-lavantagedelaglace/video/" + videos[9].id} className="single-video-display">
                             <img src={videos[9]['thumbnail-url']} alt={videos[9].title} />
                             <h4>{videos[9].title}</h4>
                         </Link>
-                        <Link to={"/lavantagedelaglace/video/" + videos[10].id} className="single-video-display">
+                        <Link to={"/final-lavantagedelaglace/video/" + videos[10].id} className="single-video-display">
                             <img src={videos[10]['thumbnail-url']} alt={videos[10].title} />
                             <h4>{videos[10].title}</h4>
                         </Link>
-                        <Link to={"/lavantagedelaglace/video/" + videos[11].id} className="single-video-display">
+                        <Link to={"/final-lavantagedelaglace/video/" + videos[11].id} className="single-video-display">
                             <img src={videos[11]['thumbnail-url']} alt={videos[11].title} />
                             <h4>{videos[11].title}</h4>
                         </Link>

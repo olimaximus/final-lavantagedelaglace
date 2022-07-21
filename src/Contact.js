@@ -51,9 +51,9 @@ const Contact = () => {
                 <h1>Nous contacter</h1>
                 <h3>Suivez-nous sur les médias sociaux</h3>
                 <div className="liens">
-                    <Link to="/lavantagedelaglace/contact" className="fa fa-facebook"></Link>
-                    <Link to="/lavantagedelaglace/contact" className="fa fa-youtube"></Link>
-                    <Link to="/lavantagedelaglace/contact" className="fa fa-instagram"></Link>
+                    <Link to="/final-lavantagedelaglace/contact" className="fa fa-facebook"></Link>
+                    <Link to="/final-lavantagedelaglace/contact" className="fa fa-youtube"></Link>
+                    <Link to="/final-lavantagedelaglace/contact" className="fa fa-instagram"></Link>
                 </div>
 
                 <h3>Envoyez-nous un courriel</h3>

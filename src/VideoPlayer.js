@@ -17,8 +17,8 @@ const VideoPlayer = () => {
         nextId = 1
     }
 
-    const previous = "/lavantagedelaglace/video/" + previousId
-    const next = "/lavantagedelaglace/video/" + nextId
+    const previous = "/final-lavantagedelaglace/video/" + previousId
+    const next = "/final-lavantagedelaglace/video/" + nextId
     
     return (
         <div className="video-player">
